@@ -7,6 +7,7 @@ Support email: **humansaiops@gmail.com** (also on [support.html](support.html) a
 ## Live site
 
 - **Home:** [https://parth4.github.io/hum-site/](https://parth4.github.io/hum-site/)
+- **About:** [https://parth4.github.io/hum-site/about.html](https://parth4.github.io/hum-site/about.html)
 - **Privacy policy:** [https://parth4.github.io/hum-site/privacy.html](https://parth4.github.io/hum-site/privacy.html)
 - **Support:** [https://parth4.github.io/hum-site/support.html](https://parth4.github.io/hum-site/support.html)
 
