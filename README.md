@@ -2,28 +2,23 @@
 
 Public static site for **hum** (privacy policy, support). The main app repo stays private.
 
+## Live site
+
+- **Home:** [https://parth4.github.io/hum-site/](https://parth4.github.io/hum-site/)
+- **Privacy policy:** [https://parth4.github.io/hum-site/privacy.html](https://parth4.github.io/hum-site/privacy.html)
+- **Support:** [https://parth4.github.io/hum-site/support.html](https://parth4.github.io/hum-site/support.html)
+
+The Expo app reads `expo.extra.humInviteUrl` in the main **hum** project — set to the home URL above so **Share hum** includes this link.
+
 ## GitHub Pages
 
-1. Push this repo to GitHub (see below).
-2. On GitHub: **Settings → Pages → Build and deployment → Source:** **Deploy from a branch**.
-3. Branch **main**, folder **/** (root), Save.
-4. Site URL: `https://<user>.github.io/<repo>/`
+Source: branch **main**, folder **/** (root).
 
-Use these in App Store / Google Play and in the app (`humInviteUrl`):
-
-- Home: `https://<user>.github.io/<repo>/`
-- Privacy: `https://<user>.github.io/<repo>/privacy.html`
-
-## First push (replace YOUR_USER)
+## Clone & edit
 
 ```bash
+git clone https://github.com/parth4/hum-site.git
 cd hum-site
-git init
-git add .
-git commit -m "Initial public site for hum"
-git branch -M main
-git remote add origin https://github.com/YOUR_USER/hum-site.git
-git push -u origin main
+# edit HTML/CSS, then:
+git add -A && git commit -m "Update site" && git push
 ```
-
-If the empty repo already exists on GitHub, use its URL as `origin`.
