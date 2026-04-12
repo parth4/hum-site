@@ -2,6 +2,8 @@
 
 Public static site for **hum** (privacy policy, support). The main app repo stays private.
 
+Support email: **humansaiops@gmail.com** (also on [support.html](support.html) and in the privacy policy).
+
 ## Live site
 
 - **Home:** [https://parth4.github.io/hum-site/](https://parth4.github.io/hum-site/)
