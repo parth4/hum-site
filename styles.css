@@ -32,6 +32,24 @@ header {
   border-bottom: 1px solid var(--border);
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.mark {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.brand h1 {
+  margin: 0 0 0.25rem;
+}
+
 h1 {
   font-size: 1.75rem;
   font-weight: 500;

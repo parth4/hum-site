@@ -14,6 +14,13 @@ The Expo app reads `expo.extra.humInviteUrl` in the main **hum** project — set
 
 Source: branch **main**, folder **/** (root).
 
+## Brand icon
+
+The hummingbird mark matches the mobile app (`assets/hummingbird-mark.svg`). Update it from the **hum** app repo when the icon changes:
+
+- Run `D:\hum\scripts\sync-hum-site-icon.ps1`, or copy `hum/assets/hummingbird-mark.svg` into `assets/` here.
+- License: `assets/ATTRIBUTION.txt` (CC BY 3.0, game-icons).
+
 ## Clone & edit
 
 ```bash
