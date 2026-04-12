@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>privacy · hum</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>hum</h1>
+        <p class="tag">privacy policy</p>
+        <nav>
+          <a href="index.html">home</a>
+          <a href="support.html">support</a>
+        </nav>
+      </header>
+
+      <p class="muted">Last updated: April 12, 2026</p>
+
+      <p>
+        This policy describes how the hum mobile app (“hum”, “we”) handles information. hum is built
+        around <strong>small, private moments on your device</strong>. We do not sell your personal
+        information.
+      </p>
+
+      <h2>what stays on your device</h2>
+      <p>By default, hum stores your settings, relationship preferences, and nudge history locally on your phone using the device’s storage (for example via AsyncStorage). That includes things like:</p>
+      <ul>
+        <li>onboarding answers and notification preferences</li>
+        <li>optional “home” location you save for gentle context (used only on the device for presence hints)</li>
+        <li>your latest nudge and feedback you give to nudges</li>
+      </ul>
+      <p>We do not operate a hum account or sync your relationship data to our servers for core app use.</p>
+
+      <h2>nudge generation (internet)</h2>
+      <p>
+        When you use features that generate a personalized nudge with an AI assistant, the app sends a
+        <strong>context message</strong> (for example time of day, relationship type, and the optional
+        answers you provided) to the AI provider’s API so a nudge can be written. Your nudge text is
+        returned to the app and stored on your device as part of normal use.
+      </p>
+      <p class="muted">
+        That processing is governed by the AI provider’s terms and privacy policy (e.g. Anthropic if that
+        integration is enabled in your build).
+      </p>
+
+      <h2>crash and error reporting</h2>
+      <p>
+        In production builds, hum may use Sentry (or similar) to report crashes and technical errors so
+        we can fix bugs. We configure reporting to avoid attaching sensitive request bodies or profile
+        fields where possible. Error reporting is disabled in development mode.
+      </p>
+
+      <h2>optional anonymous feedback</h2>
+      <p>
+        If you use the optional in-app feedback flow, the app may send a small JSON payload to our
+        feedback endpoint (for example sentiment and app version, and an optional short message you
+        choose to write). That path is designed <strong>not</strong> to include your full nudge text or
+        stored profile by design.
+      </p>
+
+      <h2>notifications and location</h2>
+      <ul>
+        <li><strong>Notifications:</strong> hum schedules local reminders on your device. We do not need a server to “push” your private nudge content for that core behavior.</li>
+        <li><strong>Location:</strong> if you grant permission, location may be used to remember a home area and to support gentle “home / away” context. That processing is intended to run on the device for hum’s features, not to track you on a map in the cloud.</li>
+      </ul>
+
+      <h2>children</h2>
+      <p>hum is intended for adults. It is not directed at children under 13 (or the age required in your region).</p>
+
+      <h2>changes</h2>
+      <p>We may update this policy as the app evolves. The “Last updated” date at the top will change when we do.</p>
+
+      <h2>contact</h2>
+      <p>
+        Questions: use the contact on the <a href="support.html">support</a> page.
+      </p>
+
+      <footer>
+        <p><a href="index.html">← back</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
