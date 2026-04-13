@@ -19,10 +19,10 @@ Source: branch **main**, folder **/** (root).
 
 ## Brand icon
 
-The hummingbird mark matches the mobile app (`assets/hummingbird-mark.svg`). Update it from the **hum** app repo when the icon changes:
+Favicon and header mark use **`assets/icon.png`** — the same file as the hum app’s Expo `icon` / launcher artwork.
 
-- Run `D:\hum\scripts\sync-hum-site-icon.ps1`, or copy `hum/assets/hummingbird-mark.svg` into `assets/` here.
-- License: `assets/ATTRIBUTION.txt` (CC BY 3.0, game-icons).
+- After updating **`hum/assets/icon.png`**, run **`D:\hum\scripts\sync-hum-site-icon.ps1`** (or copy that PNG into `assets/` here).
+- Notes: `assets/ATTRIBUTION.txt` (legacy CC hummingbird vector is documented in the main **hum** repo only).
 
 ## Clone & edit
 

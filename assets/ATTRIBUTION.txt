@@ -1,11 +1,6 @@
-Hummingbird mark uses vector paths from:
-  "Hummingbird - Delapouite - game-icons.svg"
-  https://commons.wikimedia.org/wiki/File:Hummingbird_-_Delapouite_-_game-icons.svg
+Site / app icon (assets/icon.png)
+  Same raster as the main hum app: hum/assets/icon.png (Expo `icon`, in-app AppIconMark).
+  Sync from the hum repo with D:\hum\scripts\sync-hum-site-icon.ps1
 
-License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
-Author: Delapouite / game-icons.net (via Wikimedia Commons)
-
-Web (hum-site / marketing):
-  Copy hummingbird-mark.svg into the static site (e.g. repo root or /assets/).
-  Use <img src="hummingbird-mark.svg" alt="hum" width="88" height="88" />
-  or inline the SVG; fill is #E8845A to match the app theme primary.
+Legacy hummingbird vector (no longer used on this site)
+  See hum/assets/attribution.txt and hum/assets/hummingbird-mark.svg — CC BY 3.0 (Delapouite / game-icons).
